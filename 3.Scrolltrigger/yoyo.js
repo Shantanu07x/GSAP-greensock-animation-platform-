@@ -1,0 +1,22 @@
+gsap.to(".box",{
+    x:1290,
+    duration:1.8,
+    delay:0.5,
+    rotate:360,
+    backgroundColor:"lightblue",
+    borderRadius:"50%",
+    scale:0.5,
+    yoyo:true,
+    repeat:-1
+})
+gsap.from(".box1",{
+    x:1290,
+    duration:1.8,
+    delay:0.5,
+    rotate:360,
+    backgroundColor:"lightblue",
+    borderRadius:"50%",
+    scale:0.5,
+    yoyo:true,
+    repeat:-1
+})
